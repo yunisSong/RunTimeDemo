@@ -12,6 +12,10 @@
 		8B5085971E235ADF006252FA /* ExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5085961E235ADF006252FA /* ExchangeMethodViewController.m */; };
 		8B50859A1E235BA6006252FA /* UIAlertController+exchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5085991E235BA6006252FA /* UIAlertController+exchangeMethod.m */; };
 		8B50859E1E235F56006252FA /* DynamicallyObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B50859D1E235F56006252FA /* DynamicallyObjectViewController.m */; };
+		8B97DF891E262B9400BA1A7A /* DicToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B97DF881E262B9400BA1A7A /* DicToModel.m */; };
+		8B97DF8D1E262DB100BA1A7A /* NSString+json2Dic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B97DF8C1E262DB100BA1A7A /* NSString+json2Dic.m */; };
+		8B97DF901E262DEF00BA1A7A /* NSDictionary+dic2Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B97DF8F1E262DEF00BA1A7A /* NSDictionary+dic2Json.m */; };
+		8B97DF931E262F1000BA1A7A /* NSObject+dicToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B97DF921E262F1000BA1A7A /* NSObject+dicToModel.m */; };
 		8BAA181C1E26061800637BC8 /* EncodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA181B1E26061800637BC8 /* EncodeViewController.m */; };
 		8BAA18221E26063B00637BC8 /* EncodeTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA18211E26063B00637BC8 /* EncodeTestModel.m */; };
 		8BAA18251E26065B00637BC8 /* NSObject+encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA18241E26065B00637BC8 /* NSObject+encode.m */; };
@@ -25,6 +29,7 @@
 		8BF37F271E232E15002A9561 /* ClassPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF37F261E232E15002A9561 /* ClassPropertyViewController.m */; };
 		8BF37F2A1E232E4E002A9561 /* ClassPropertyObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF37F291E232E4E002A9561 /* ClassPropertyObj.m */; };
 		8BF37F2D1E232F25002A9561 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF37F2C1E232F25002A9561 /* NSObject+Property.m */; };
+		8BFEEED41E262AAC0045027A /* DIc2ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEEED31E262AAC0045027A /* DIc2ModelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,14 @@
 		8B5085991E235BA6006252FA /* UIAlertController+exchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+exchangeMethod.m"; sourceTree = "<group>"; };
 		8B50859C1E235F56006252FA /* DynamicallyObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicallyObjectViewController.h; sourceTree = "<group>"; };
 		8B50859D1E235F56006252FA /* DynamicallyObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicallyObjectViewController.m; sourceTree = "<group>"; };
+		8B97DF871E262B9400BA1A7A /* DicToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicToModel.h; sourceTree = "<group>"; };
+		8B97DF881E262B9400BA1A7A /* DicToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicToModel.m; sourceTree = "<group>"; };
+		8B97DF8B1E262DB100BA1A7A /* NSString+json2Dic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+json2Dic.h"; sourceTree = "<group>"; };
+		8B97DF8C1E262DB100BA1A7A /* NSString+json2Dic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+json2Dic.m"; sourceTree = "<group>"; };
+		8B97DF8E1E262DEF00BA1A7A /* NSDictionary+dic2Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+dic2Json.h"; sourceTree = "<group>"; };
+		8B97DF8F1E262DEF00BA1A7A /* NSDictionary+dic2Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+dic2Json.m"; sourceTree = "<group>"; };
+		8B97DF911E262F1000BA1A7A /* NSObject+dicToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+dicToModel.h"; sourceTree = "<group>"; };
+		8B97DF921E262F1000BA1A7A /* NSObject+dicToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+dicToModel.m"; sourceTree = "<group>"; };
 		8BAA181A1E26061800637BC8 /* EncodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeViewController.h; sourceTree = "<group>"; };
 		8BAA181B1E26061800637BC8 /* EncodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodeViewController.m; sourceTree = "<group>"; };
 		8BAA18201E26063B00637BC8 /* EncodeTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeTestModel.h; sourceTree = "<group>"; };
@@ -62,6 +75,8 @@
 		8BF37F291E232E4E002A9561 /* ClassPropertyObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassPropertyObj.m; sourceTree = "<group>"; };
 		8BF37F2B1E232F25002A9561 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		8BF37F2C1E232F25002A9561 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		8BFEEED21E262AAC0045027A /* DIc2ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIc2ModelViewController.h; sourceTree = "<group>"; };
+		8BFEEED31E262AAC0045027A /* DIc2ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIc2ModelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +136,17 @@
 			name = DynamicallyObject;
 			sourceTree = "<group>";
 		};
+		8B97DF8A1E262D8700BA1A7A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8B97DF8B1E262DB100BA1A7A /* NSString+json2Dic.h */,
+				8B97DF8C1E262DB100BA1A7A /* NSString+json2Dic.m */,
+				8B97DF8E1E262DEF00BA1A7A /* NSDictionary+dic2Json.h */,
+				8B97DF8F1E262DEF00BA1A7A /* NSDictionary+dic2Json.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		8BAA18191E2605FB00637BC8 /* encode */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,13 +183,15 @@
 				8BB55B8B1E2093D800769145 /* AppDelegate.m */,
 				8BB55B8D1E2093D800769145 /* ViewController.h */,
 				8BB55B8E1E2093D800769145 /* ViewController.m */,
+				8B97DF8A1E262D8700BA1A7A /* Category */,
 				8B5085901E233259006252FA /* ClassProperty */,
 				8B5085911E235A14006252FA /* ExchangeMethod */,
 				8B50859B1E235EC7006252FA /* DynamicallyObject */,
 				8B10F1C41E246E80003B53A8 /* KVO(原Demo地址https://github.com/okcomp/ImplementKVO) */,
 				8BAA18191E2605FB00637BC8 /* encode */,
-				8BB55B931E2093D800769145 /* Assets.xcassets */,
+				8BFEEED11E262A900045027A /* DIc2Model */,
 				8BB55B901E2093D800769145 /* Main.storyboard */,
+				8BB55B931E2093D800769145 /* Assets.xcassets */,
 				8BB55B951E2093D800769145 /* LaunchScreen.storyboard */,
 				8BB55B981E2093D800769145 /* Info.plist */,
 				8BB55B871E2093D800769145 /* Supporting Files */,
@@ -177,6 +205,19 @@
 				8BB55B881E2093D800769145 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BFEEED11E262A900045027A /* DIc2Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BFEEED21E262AAC0045027A /* DIc2ModelViewController.h */,
+				8BFEEED31E262AAC0045027A /* DIc2ModelViewController.m */,
+				8B97DF871E262B9400BA1A7A /* DicToModel.h */,
+				8B97DF881E262B9400BA1A7A /* DicToModel.m */,
+				8B97DF911E262F1000BA1A7A /* NSObject+dicToModel.h */,
+				8B97DF921E262F1000BA1A7A /* NSObject+dicToModel.m */,
+			);
+			name = DIc2Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,12 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB55B8F1E2093D800769145 /* ViewController.m in Sources */,
+				8B97DF891E262B9400BA1A7A /* DicToModel.m in Sources */,
 				8B10F1C71E246E90003B53A8 /* NSObject+KVO.m in Sources */,
 				8BAA18221E26063B00637BC8 /* EncodeTestModel.m in Sources */,
 				8B5085971E235ADF006252FA /* ExchangeMethodViewController.m in Sources */,
 				8BB55B8C1E2093D800769145 /* AppDelegate.m in Sources */,
 				8BAA181C1E26061800637BC8 /* EncodeViewController.m in Sources */,
+				8B97DF931E262F1000BA1A7A /* NSObject+dicToModel.m in Sources */,
+				8BFEEED41E262AAC0045027A /* DIc2ModelViewController.m in Sources */,
 				8BAA18251E26065B00637BC8 /* NSObject+encode.m in Sources */,
+				8B97DF8D1E262DB100BA1A7A /* NSString+json2Dic.m in Sources */,
 				8BF37F271E232E15002A9561 /* ClassPropertyViewController.m in Sources */,
 				8B10F1CA1E246FEC003B53A8 /* KVOViewController.m in Sources */,
 				8BB55B891E2093D800769145 /* main.m in Sources */,
@@ -264,6 +309,7 @@
 				8B50859A1E235BA6006252FA /* UIAlertController+exchangeMethod.m in Sources */,
 				8BD069201E2361BF006826B3 /* UIView+redDot.m in Sources */,
 				8BF37F2A1E232E4E002A9561 /* ClassPropertyObj.m in Sources */,
+				8B97DF901E262DEF00BA1A7A /* NSDictionary+dic2Json.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
