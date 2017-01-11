@@ -1,5 +1,6 @@
 # RunTimeDemo
-
+[Demo 简书配套地址](http://www.jianshu.com/p/cc8de5d12cf5)
+不过直接看代码就行。。。文章也没写什么。。。
 
 
 > 这篇文字不扯淡，不讲runtime是什么，只总结下runtime 可以用来干什么。

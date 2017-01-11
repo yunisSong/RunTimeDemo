@@ -38,7 +38,6 @@
     NSLog(@"model = %@",model.Ruby);
 
 
-
 }
 
 - (void)didReceiveMemoryWarning {
