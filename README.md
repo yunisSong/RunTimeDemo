@@ -1,28 +1,28 @@
 # RunTimeDemo
 [Demo 简书配套地址](http://www.jianshu.com/p/cc8de5d12cf5)
-不过直接看代码就行。。。文章也没写什么。。。
 
 
-> 这篇文字不扯淡，不讲runtime是什么，只总结下runtime 可以用来干什么。
-    这几篇文章写的很好，
-    [Objective-C Runtime](http://tech.glowing.com/cn/objective-c-runtime/)
-[Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
-[南大(南锋子)的一系列文章](http://southpeak.github.io/categories/objectivec/)（打开稍慢）
-[[[精通Objective-C]进阶技巧：使用运行时系统API](http://blog.csdn.net/sps900608/article/details/51863147)](http://blog.csdn.net/sps900608/article/details/51863147)
-然后饶神总结的也不错,里面好多干货
-[iOS 基础知识点网址](http://www.jianshu.com/p/64a7c9f7f6b2)
+
+
 
 > 这篇文字不扯淡，不讲runtime是什么，只总结下runtime 可以用来干什么。
     这几篇文章写的很好，
     [Objective-C Runtime](http://tech.glowing.com/cn/objective-c-runtime/)
+    
 [Method Swizzling 和 AOP 实践](http://tech.glowing.com/cn/method-swizzling-aop/)
+
 [南大(南锋子)的一系列文章](http://southpeak.github.io/categories/objectivec/)（打开稍慢）
+
 [[[精通Objective-C]进阶技巧：使用运行时系统API](http://blog.csdn.net/sps900608/article/details/51863147)](http://blog.csdn.net/sps900608/article/details/51863147)
+
 然后饶神总结的也不错,里面好多干货
 [iOS 基础知识点网址](http://www.jianshu.com/p/64a7c9f7f6b2)
+
 美团技术团队
 [深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html)
+
 [深入理解Objective-C：方法缓存](http://tech.meituan.com/DiveIntoMethodCache.html)
+
 [Obj-C Optimization: IMP Cacheing Deluxe](http://www.mulle-kybernetik.com/artikel/Optimization/opti-3-imp-deluxe.html)
 
 #### 1，获取类属性列表、值、方法
