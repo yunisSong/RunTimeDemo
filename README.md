@@ -4,8 +4,7 @@
 
 
 
-
-> 这篇文字不扯淡，不讲runtime是什么，只总结下runtime 可以用来干什么。
+ 这篇文字不扯淡，不讲runtime是什么，只总结下runtime 可以用来干什么。
     这几篇文章写的很好，
     [Objective-C Runtime](http://tech.glowing.com/cn/objective-c-runtime/)
     
