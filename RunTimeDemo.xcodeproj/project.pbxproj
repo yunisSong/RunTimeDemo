@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8B10F1C71E246E90003B53A8 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10F1C61E246E90003B53A8 /* NSObject+KVO.m */; };
 		8B10F1CA1E246FEC003B53A8 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10F1C91E246FEC003B53A8 /* KVOViewController.m */; };
+		8B1E25252016C04400A70468 /* ForwardingMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E25242016C04400A70468 /* ForwardingMessageViewController.m */; };
+		8B1E25282016C05500A70468 /* ForwardingMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E25272016C05500A70468 /* ForwardingMessageModel.m */; };
 		8B5085971E235ADF006252FA /* ExchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5085961E235ADF006252FA /* ExchangeMethodViewController.m */; };
 		8B50859A1E235BA6006252FA /* UIAlertController+exchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5085991E235BA6006252FA /* UIAlertController+exchangeMethod.m */; };
 		8B50859E1E235F56006252FA /* DynamicallyObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B50859D1E235F56006252FA /* DynamicallyObjectViewController.m */; };
@@ -37,6 +39,10 @@
 		8B10F1C61E246E90003B53A8 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 		8B10F1C81E246FEC003B53A8 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
 		8B10F1C91E246FEC003B53A8 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		8B1E25232016C04400A70468 /* ForwardingMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardingMessageViewController.h; sourceTree = "<group>"; };
+		8B1E25242016C04400A70468 /* ForwardingMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardingMessageViewController.m; sourceTree = "<group>"; };
+		8B1E25262016C05500A70468 /* ForwardingMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardingMessageModel.h; sourceTree = "<group>"; };
+		8B1E25272016C05500A70468 /* ForwardingMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardingMessageModel.m; sourceTree = "<group>"; };
 		8B5085951E235ADF006252FA /* ExchangeMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeMethodViewController.h; sourceTree = "<group>"; };
 		8B5085961E235ADF006252FA /* ExchangeMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeMethodViewController.m; sourceTree = "<group>"; };
 		8B5085981E235BA6006252FA /* UIAlertController+exchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+exchangeMethod.h"; sourceTree = "<group>"; };
@@ -99,6 +105,17 @@
 				8B10F1C91E246FEC003B53A8 /* KVOViewController.m */,
 			);
 			name = "KVO(原Demo地址https://github.com/okcomp/ImplementKVO)";
+			sourceTree = "<group>";
+		};
+		8B1E25222016C02600A70468 /* ForwardingMessage */ = {
+			isa = PBXGroup;
+			children = (
+				8B1E25232016C04400A70468 /* ForwardingMessageViewController.h */,
+				8B1E25242016C04400A70468 /* ForwardingMessageViewController.m */,
+				8B1E25262016C05500A70468 /* ForwardingMessageModel.h */,
+				8B1E25272016C05500A70468 /* ForwardingMessageModel.m */,
+			);
+			name = ForwardingMessage;
 			sourceTree = "<group>";
 		};
 		8B5085901E233259006252FA /* ClassProperty */ = {
@@ -183,6 +200,7 @@
 				8BB55B8B1E2093D800769145 /* AppDelegate.m */,
 				8BB55B8D1E2093D800769145 /* ViewController.h */,
 				8BB55B8E1E2093D800769145 /* ViewController.m */,
+				8B1E25222016C02600A70468 /* ForwardingMessage */,
 				8B97DF8A1E262D8700BA1A7A /* Category */,
 				8B5085901E233259006252FA /* ClassProperty */,
 				8B5085911E235A14006252FA /* ExchangeMethod */,
@@ -292,6 +310,7 @@
 			files = (
 				8BB55B8F1E2093D800769145 /* ViewController.m in Sources */,
 				8B97DF891E262B9400BA1A7A /* DicToModel.m in Sources */,
+				8B1E25252016C04400A70468 /* ForwardingMessageViewController.m in Sources */,
 				8B10F1C71E246E90003B53A8 /* NSObject+KVO.m in Sources */,
 				8BAA18221E26063B00637BC8 /* EncodeTestModel.m in Sources */,
 				8B5085971E235ADF006252FA /* ExchangeMethodViewController.m in Sources */,
@@ -305,6 +324,7 @@
 				8B10F1CA1E246FEC003B53A8 /* KVOViewController.m in Sources */,
 				8BB55B891E2093D800769145 /* main.m in Sources */,
 				8BF37F2D1E232F25002A9561 /* NSObject+Property.m in Sources */,
+				8B1E25282016C05500A70468 /* ForwardingMessageModel.m in Sources */,
 				8B50859E1E235F56006252FA /* DynamicallyObjectViewController.m in Sources */,
 				8B50859A1E235BA6006252FA /* UIAlertController+exchangeMethod.m in Sources */,
 				8BD069201E2361BF006826B3 /* UIView+redDot.m in Sources */,
